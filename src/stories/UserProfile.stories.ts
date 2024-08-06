@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { UserProfile } from "./UserProfile";
 import { liff } from "@line/liff";
-import pictureUrl from ".assets/profile_icon.jpg";
+import pictureUrl from "./assets/profile_icon.jpg";
 
 const meta = {
   title: "Liff/UserProfile",
