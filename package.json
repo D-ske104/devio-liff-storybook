@@ -11,6 +11,13 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "imports": {
+    "#src/lib/liff-init": {
+      "storybook": "./src/lib/liff-init.mock.ts",
+      "default": "./src/lib/liff-init.ts"
+    },
+    "#*": ["./*", "./*.ts", "./*.tsx"]
+  },
   "dependencies": {
     "@line/liff": "^2.24.0",
     "@line/liff-mock": "^1.0.3",
