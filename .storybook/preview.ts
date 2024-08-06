@@ -1,7 +1,7 @@
 import type { Preview } from "@storybook/react";
-import { liffInit } from "../src/lib/liff-init.mock.ts";
+import { liffInit } from "../src/lib/liff-init.mock";
 
-import "src/index.css";
+import "../src/index.css";
 
 await liffInit()
 
