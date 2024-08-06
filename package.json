@@ -2,6 +2,8 @@
   "name": "devio-liff-storybook",
   "private": true,
   "version": "0.0.0",
+  "author": {"name": "KUSATAKE Daisuke", "email": "kusatake.daisuke@classmethod.jp", "url": "https://dev.classmethod.jp/author/kusatake-daisuke/"},
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
